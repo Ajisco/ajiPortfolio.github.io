@@ -31,6 +31,6 @@ if($email!=NULL){
 }
 
 //redirect
-header("Location:thankyou.html);
+header("Location:form.html);
 
 ?>
