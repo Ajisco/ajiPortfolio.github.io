@@ -28,6 +28,7 @@ $header= "From: noreply@ajisco.com". "\r\n ".
 "CC: doctorajisco@gmail.com"
 if($email!=NULL){
   mail($to, $subject, $txt, $header);
+  echo "Message has been sent";
 }
 
 //redirect
